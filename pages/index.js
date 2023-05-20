@@ -43,7 +43,7 @@ export default function Home() {
 
       <div className={styles.App}>
         <DragDropContext onDragEnd={handleDrop}>
-          <Droppable droppableId={styles.list_container}>
+          <Droppable droppableId={styles.list_container} direction="horizontal">
             {(provided) => (
               <div
                 className={styles.list_container}

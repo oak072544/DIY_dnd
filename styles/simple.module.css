@@ -8,11 +8,11 @@
   display: flex;
   font-size: 18px;
   background-color: #eee;
-  flex-direction: column;
+  flex-direction: row;
 }
 .item_container {
   background-color: #fff;
   border: 1px solid black;
-  padding: 25px 70px;
-  margin: 15px 50px;
+  padding: 25px 50px;
+  margin: 15px 20px;
 }
